@@ -12,6 +12,8 @@ This reproduces an issue that started happening in Chromium 130, I believe.
 >
 > example.com/:1 Uncaught (in promise) TypeError: Failed to fetch dynamically imported module: chrome-extension://94d40efc-bd8d-4ff7-afe0-0292a450109b/module.js
 
+**Workaround:** Remove `"use_dynamic_url": true` from the entry in `web_accessible_resources`.
+
 What's weird:
 
 * This didn't happen in Chromium 129 as far as I know, but started happening in 130. (I first observed this in Edge, but it also happens in Brave 1.71 and Chromium 130.0.6723.58.)
