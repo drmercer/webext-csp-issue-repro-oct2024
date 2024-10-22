@@ -1,3 +1,7 @@
+> ![NOTE]
+>
+> A Chromium issue was filed for this problem here: https://issues.chromium.org/issues/363027634
+
 This reproduces an issue that started happening in Chromium 130, I believe.
 
 1. Load this extension unpacked
