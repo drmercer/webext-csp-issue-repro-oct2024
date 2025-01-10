@@ -1,6 +1,6 @@
 > [!NOTE]
 >
-> This issues was fixed. 🎉 See this Chromium issue: https://issues.chromium.org/issues/363027634
+> This issue was fixed. 🎉 See this Chromium issue: https://issues.chromium.org/issues/363027634
 
 This reproduces an issue that started happening in Chromium 130, I believe.
 
